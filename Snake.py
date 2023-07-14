@@ -7,6 +7,6 @@ GameOver = False
 while not GameOver:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            GameOver= True
+            GameOver = True
 pygame.quit()
 quit()
